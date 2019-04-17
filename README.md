@@ -1,23 +1,22 @@
-# RouterSploit - Exploitation Framework for Embedded Devices
+# RouterSploit - Framework de Explotación para Dispositivos Embebidos
 
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-yellow.svg)](http://www.python.org/download/)
 [![Build Status](https://travis-ci.org/threat9/routersploit.svg?branch=master)](https://travis-ci.org/threat9/routersploit)
 
-The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices.
+El Marco de RouterSploit es un marco de explotación de código abierto dedicado a dispositivos integrados.
 
 [![asciicast](https://asciinema.org/a/180370.png)](https://asciinema.org/a/180370)
 
-It consists of various modules that aids penetration testing operations:
+Consiste en varios módulos que ayudan a las operaciones de pruebas de penetración:
 
-* exploits - modules that take advantage of identified vulnerabilities
-* creds - modules designed to test credentials against network services
-* scanners - modules that check if a target is vulnerable to any exploit
-* payloads - modules that are responsible for generating payloads for various architectures and injection points
-* generic - modules that perform generic attacks 
+* exploits - módulos que aprovechan las vulnerabilidades identificadas
+* creds: módulos diseñados para probar las credenciales de los servicios de red.
+* escáneres: módulos que verifican si un objetivo es vulnerable a cualquier explotación
+* Carga útil: módulos que son responsables de generar cargas útiles para diversas arquitecturas y puntos de inyección
+* genéricos - módulos que realizan ataques genéricos
+# Instalacion
 
-# Installation
-
-## Requirements
+## Requerimientos
 
 Required:
 * future
@@ -86,7 +85,8 @@ docker run -it --rm routersploit
 
 # Update
 
-Update RouterSploit Framework often. The project is under heavy development and new modules are shipped almost every day.
+
+Actualice RouterSploit Framework a menudo. El proyecto está en desarrollo y los nuevos módulos se envían casi todos los días.
 
 ```
 cd routersploit
@@ -95,5 +95,6 @@ git pull
 
 # License
 
-The RouterSploit Framework is under a BSD license.
-Please see [LICENSE](LICENSE) for more details.
+
+El Framework RouterSploit está bajo una licencia BSD.
+Consulte [LICENCIA] (LICENCIA) para obtener más detalles.
