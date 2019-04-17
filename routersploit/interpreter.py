@@ -235,12 +235,11 @@ class RoutersploitInterpreter(BaseInterpreter):
        Exploitation Framework for    |_|    by Threat9
             Embedded Devices
 
- Codename   : I Knew You Were Trouble
- Version    : 3.4.0
- Homepage   : https://www.threat9.com - @threatnine
- Join Slack : https://www.threat9.com/slack
+ Codename   : TecnoSolution
+ Version    : 4.0.0
+ YouTube    : https://www.youtube.com/channel/UCf9siCVepHU1juk-9YFztOg - @TecnoSolution
+ Facebook   : https://www.facebook.com/TecnoSolution2019
 
- Join Threat9 Beta Program - https://www.threat9.com
 
  Exploits: {exploits_count} Scanners: {scanners_count} Creds: {creds_count} Generic: {generic_count} Payloads: {payloads_count} Encoders: {encoders_count}
 """.format(exploits_count=self.modules_count["exploits"],
